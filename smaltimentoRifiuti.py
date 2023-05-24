@@ -69,11 +69,11 @@ def caso_num(scelta):
         ripulisci()
         print("\nSiccome l'oggetto scelto non si trova nella categoria selezionata ti guidiamo noi")
         print()
-        tmp = input("Continua... ")
+        tmp = input("\nContinua... ")
         ripulisci()
         x, cat = non_sai_dove()
         print(f"L'oggetto va smaltito in categoria: {cat}")
-        tmp = input("Continua... ")
+        tmp = input("\nContinua... ")
 
     ora = datetime.today()
     lista_caratt = caratteristiche()
@@ -187,7 +187,7 @@ def main():
                 ripulisci()
                 x, cat = non_sai_dove()
                 print(f"L'oggetto va smaltito in categoria: {cat}")
-                tmp = input("Continua... ")
+                tmp = input("\nContinua... ")
 
                 ora = datetime.today()
                 lista_caratt = caratteristiche()
