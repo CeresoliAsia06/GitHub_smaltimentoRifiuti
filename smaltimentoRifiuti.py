@@ -193,7 +193,7 @@ def main():
                 ora = datetime.today()
                 lista_caratt = caratteristiche()
 
-                file.write(f"Ora: {ora}\n   Oggetto: {x}\n   Categoria: {cat}   Caratteristiche: {lista_caratt}\n\n")
+                file.write(f"Ora: {ora}\n   Oggetto: {x}\n   Categoria: {cat}\n   Caratteristiche: {lista_caratt}\n\n")
                 file.close()
         case 2:
             ripulisci()
