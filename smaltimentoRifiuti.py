@@ -30,8 +30,8 @@ def caratteristiche():
     while var_contr:
         ripulisci()
         try:
-            peso = float(input("inserisci il peso in g (la virgola indicala con il punto): "))
-            peso = str(peso)+" g"
+            peso = float(input("inserisci il peso in kg (la virgola indicala con il punto): "))
+            peso = str(peso)+" kg"
 
             var_contr = False
         except:
